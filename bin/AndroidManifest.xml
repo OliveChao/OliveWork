@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simtoolkit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Safaricom"
+            android:label="@string/title_activity_safaricom" >
+        </activity>
+        <activity
+            android:name=".MPesa"
+            android:label="@string/title_activity_mpesa" >
+        </activity>
+        <activity
+            android:name=".ContactsBackup"
+            android:label="@string/title_activity_contacts_backup" >
+        </activity>
+    </application>
+
+</manifest>
